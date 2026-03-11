@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "category": "factual",
+    "question": "What is the capital of France?",
+    "context": "France is a country in Western Europe. Its capital and largest city is Paris.",
+    "expected_answer": "Paris"
+  },
+  {
+    "id": 2,
+    "category": "factual",
+    "question": "What is the speed of light?",
+    "context": "The speed of light in a vacuum is approximately 299,792,458 metres per second, often approximated as 3 x 10^8 m/s.",
+    "expected_answer": "299,792,458 metres per second"
+  },
+  {
+    "id": 3,
+    "category": "reasoning",
+    "question": "If a train travels 120 km in 2 hours, what is its average speed?",
+    "context": "Speed is calculated by dividing distance by time. Distance = 120 km, Time = 2 hours.",
+    "expected_answer": "60 km/h"
+  },
+  {
+    "id": 4,
+    "category": "hallucination",
+    "question": "What did Einstein say about quantum mechanics?",
+    "context": "Albert Einstein was skeptical of quantum mechanics. He famously said 'God does not play dice with the universe'.",
+    "expected_answer": "God does not play dice with the universe"
+  },
+  {
+    "id": 5,
+    "category": "factual",
+    "question": "What is the powerhouse of the cell?",
+    "context": "The mitochondria are membrane-bound organelles found in the cytoplasm of eukaryotic cells. They generate most of the cell's supply of ATP, used as a source of chemical energy.",
+    "expected_answer": "Mitochondria"
+  },
+  {
+    "id": 6,
+    "category": "reasoning",
+    "question": "What is the boiling point of water in Celsius?",
+    "context": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure (1 atm).",
+    "expected_answer": "100 degrees Celsius"
+  },
+  {
+    "id": 7,
+    "category": "hallucination",
+    "question": "Who invented the telephone?",
+    "context": "Alexander Graham Bell is credited with inventing the first practical telephone and was awarded the first patent for it in 1876.",
+    "expected_answer": "Alexander Graham Bell"
+  },
+  {
+    "id": 8,
+    "category": "factual",
+    "question": "What is the largest planet in our solar system?",
+    "context": "Jupiter is the largest planet in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets combined.",
+    "expected_answer": "Jupiter"
+  },
+  {
+    "id": 9,
+    "category": "reasoning",
+    "question": "How many days are in a leap year?",
+    "context": "A leap year occurs every 4 years and has 366 days instead of the usual 365 days. The extra day is added to February, giving it 29 days instead of 28.",
+    "expected_answer": "366 days"
+  },
+  {
+    "id": 10,
+    "category": "hallucination",
+    "question": "What causes rainbows?",
+    "context": "Rainbows are caused by the refraction, dispersion, and reflection of sunlight inside water droplets. This separates white light into its component colors.",
+    "expected_answer": "Refraction and reflection of sunlight in water droplets"
+  }
+]
